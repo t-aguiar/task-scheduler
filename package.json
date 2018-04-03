@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "bootstrap-vue": "^2.0.0-rc.1",
+        "vue-moment": "^3.2.0",
         "vue-router": "^3.0.1"
     }
 }

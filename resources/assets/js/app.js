@@ -16,6 +16,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 
+Vue.use(require('vue-moment'));
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);
 
@@ -35,11 +36,6 @@ const router = new VueRouter({
             path: '/hello',
             name: 'hello',
             component: Hello,
-        },
-        {
-            path: '/tasks',
-            name: 'tasks',
-            component: Task,
         },
     ],
 });
